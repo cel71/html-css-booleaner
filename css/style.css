@@ -1,7 +1,7 @@
 .header{
     background-color: rgb(78, 160, 255);
     background-image: url(../img/pattern.png);
-    background-size: contain;
+    background-size: 30%;
     height: 100px;
 }
 
@@ -35,13 +35,21 @@
     background-color: yellow;
 }
 
-.sfondo1{
-    background-color: rgb(32, 169, 229);
-    color: white;   
+table{
+    border-collapse: collapse;
+    width: 100%;
+    overflow:auto;
+    table-layout:fixed;
+    margin: 40px 0 40px 0;      
 }
 
-.sfondo2-4{
-    background-color: rgb(117, 229, 242);   
+.t-head{
+    background-color: rgb(32, 169, 229);
+    text-align: left;
+}
+
+#colore-riga{
+    background-color: rgb(117, 229, 242);
 }
 
 .titolo-finale{
